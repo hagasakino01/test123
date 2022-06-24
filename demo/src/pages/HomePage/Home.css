@@ -1,0 +1,806 @@
+.home-page{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+}
+.home-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+
+.left-home{
+    
+    width: 40%;
+    height: 100vh;
+   
+    background: #FFFFFF;
+  }
+  .top-left-home{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .logout{
+    
+    padding: 4px 16px;
+    gap: 10px;
+  
+  
+    width: 112px;
+    height: 28px;
+    left: 424px;
+    top: 32px;
+  
+    background: linear-gradient(99.27deg, #FF1CF6 -35.3%, rgba(253, 96, 28, 0.74) 66.33%, #DE2442 138.45%);
+    border-radius: 16px;
+    border: 0px;
+    margin-top: 15px;
+    margin-right: 5px;
+  }
+  .logout:active {
+   
+    box-shadow: 0 1px #666;
+    transform: translateY(2px);
+    
+  }
+  .icon-logout{
+   
+    left: 12.5%;
+    right: 8.33%;
+    top: 12.5%;
+    bottom: 12.5%;
+    width: 20px;
+    height: 20px;
+  
+   
+  }
+  .text-logout{
+  
+    width: 50px;
+    height: 20px;
+    padding-left: 30px;
+    font-family: 'SVN-Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    
+  
+  
+    color: #FFFFFF;
+  }
+  .logo{
+  
+    width: 50px;
+    height: 60px;
+    left: 65px;
+    top: 20px;
+    
+   
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+  .left-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+  
+   
+    width: 95%;
+    height: 987px;
+    left: 33px;
+    top: 75px;
+  
+  }
+  .left-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+  
+    width: 100%;
+    height: 387px;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 6px;
+  
+    
+    height: 143px;
+  
+  }
+  .box-avatar{
+    width: 80px;
+    height: 80px;
+    align-items: center;
+  }
+  .input-avatar{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    
+    z-index: -1;
+  }
+  .avatar{
+    
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    border-radius: 50%;
+  }
+  .avatar:hover{
+    border: 1px solid rgb(85, 84, 84) ;
+  }
+  .name-home{
+    
+    
+    height: 20px;
+    align-items: center;
+    
+    font-family: 'SVN-Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 21px;
+    /* identical to box height, or 105% */
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    color: #3F4650;
+  }
+  .job{
+    width: 141px;
+    height: 20px;
+    align-items: center;
+    font-family: 'SVN-Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0px;
+    margin-top: 0px;
+    margin-left: 15px;
+    /* identical to box height, or 143% */
+    
+  
+    color: #3F4650;
+  }
+  .container-create-status{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 100%;
+  }
+  .status{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+  
+    width: 100%;
+    height: 238px;
+  }
+  .box-status{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 10px;
+  
+    width: 90%;
+    height: 155px;
+    
+    
+  
+    background: #F1F2F5;
+    border-radius: 20px;
+  } 
+  .box-status:hover{
+    border: 0.3px solid rgb(211, 211, 211) ;
+  }
+ 
+  .text-status{
+    width: 100%;
+    height: 90px;
+    
+    font-family: 'SVN-Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    
+    /* or 125% */
+    background-color:#F1F2F5 ;
+    border: #F1F2F5;
+    padding: 5px;
+    color: #3F4650;
+    outline: none;
+  }
+  .text-status:focus {
+    border: 0px ;
+  }
+  .add-photos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+    gap: 10px;
+  
+    width: 90%;
+    height: 35px;
+  
+    background: #FFFFFF;
+    border-radius: 9px;
+    border: #F1F2F5;
+  }
+  .input-file{
+    display: flex;
+    justify-content: space-between;
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+   
+    z-index: -1;
+    
+  }
+  .input-file-lb{
+    width: 40%;
+   
+    height: 16px;
+    font-size: 16px;
+    padding-right: 35%;
+    
+    color: #5a87da;
+    justify-self: start;
+    
+  }
+  
+  .input-file-lb:hover {
+    color: #0e4ec5;
+  }
+
+
+  .icon-photos{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-self: end;
+    padding: 3px;
+    gap: 10px;
+   
+    width: 24px;
+    height: 24px;
+    
+  }
+  .create-status{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+    width: 50%;
+    height: 48px;
+    left: 101.5px;
+    top: 390px;
+  
+    background: linear-gradient(91.28deg, #2EBBEC 4.78%, #60C3AD 97.82%);
+    border-radius: 10px;
+    border: 0px;
+
+  }
+
+  .create-status:active {
+    
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+  }
+  .text-create-status{
+  
+    width: 88px;
+    height: 15px;
+    left: 110px;
+    top: 2px;
+  
+    font-family: 'SVN-Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 15px;
+   
+  
+ 
+    
+    color: #FFFFFF;
+  
+  }
+  .left-bot{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 14px;
+    
+    width: 100%;
+    height: 588px;
+  
+  }
+  .text-posted{
+    width: 65px;
+    height: 21px;
+  
+    font-family: 'SVN-Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 21px;
+    /* identical to box height, or 105% */
+    margin-top: 50px;
+    margin-left: 10px;
+  
+    color: #3F4650;
+  
+  }
+  
+  .box-post{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 10px;
+    margin: 5px 5px ;
+    width: 90%;
+    
+  
+    /* FACEBOOK INPUT GREY */
+  
+    background: #F1F2F5;
+    border-radius: 10px;
+  }
+  .box-post:hover{
+    background-color:#e9e9e9 ;
+  }
+  
+  .profile-post{
+    display: flex;
+    flex-direction: row;
+   
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 90%;
+   
+  
+  }
+  .button-post{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .button-fix-post{
+    width: 20px;
+    height: 20px;
+    border: 0px;
+    margin: 3px;
+  }
+  .button-fix-post:active {
+    
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+  }
+  .icon-fix{
+    width: 20px;
+    height: 20px;
+  }
+  .left-box-img-post{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+  .left-img-post{
+    width: 100%;
+    align-items: center;
+  }
+  .avatar-post{
+   
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  
+  .infor{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+  
+    width: 85%;
+    height: 39px;
+   
+  }
+  .name-post{
+    width: 100%;
+    height: 20px;
+  
+    font-family: 'SVN-Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #3F4650;
+    margin-left: 5px;
+  
+  }
+  .time-post{
+  
+  height: 15px;
+  
+  font-family: 'SVN-Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  /* identical to box height */
+  margin-top: 0px;
+  letter-spacing: 0.025em;
+  margin-left: 5px;
+  color: #727C8A;
+  }
+  .post-content{
+    width: 100%;
+    
+  
+    font-family: 'SVN-Gilroy';
+    font-style: normal;
+    font-weight: 480;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+  
+  
+    color: #3F4650;
+  
+  }
+  .comment{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+  
+    width: 471px;
+    height: 20px;
+  
+  }
+  .icon-comment{
+   
+    width: 19px;
+    height: 19px;
+  
+  }
+
+  .text-comment{
+    width: 442px;
+    height: 20px;
+  
+    font-family: 'SVN-Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    margin: 0px;
+  
+    color: #00A7DD;
+  }
+  .right-home{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    width: 60%;
+    height: auto;
+ 
+   
+    left: 568px;
+    top: 0px;
+    background: #F8FBFF;
+    
+  }
+  .box-post-right1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 0px;
+    gap: 10px;
+    
+    
+    width: 80%;
+   
+    
+    margin-top: 32px;
+    margin-left: 10%;
+  /* WHITE */
+  
+    background: #FFFFFF;
+    border-radius: 10.6756px;
+  }
+  .box-post-right1:hover{
+    border: 0.3px solid rgb(211, 211, 211) ;
+  }
+  
+  
+  .head-post-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 10px;
+  
+    width: 90%;
+    height: 118px;
+    
+  }
+  .profile-post-right{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+  
+    width: 100%;
+    height: 118px;
+  
+  }
+  .avatar-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+  
+    width: 46px;
+    height: 46px;
+    left: 50px;
+  
+    
+    border-radius: 40px;
+  }
+  .infor-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+  
+  
+    height: 46px;
+  }
+  .name-infor-right{
+    font-family: 'SVN-Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    background: linear-gradient(91.28deg, #2EBBEC 4.78%, #60C3AD 97.82%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  
+    }
+  .time-infor-right{
+    
+    height: 15px;
+  
+    font-family: 'SVN-Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    /* identical to box height */
+  
+    letter-spacing: 0.025em;
+  
+    color: #727C8A;
+    margin-top: 5px;
+  }
+  .caption-right{
+    width: 100%;
+    height: 62px;
+  
+    font-family: 'SVN-Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    margin-top: 5px;
+  
+  
+    color: #3F4650;
+  }
+  .body-post-right{
+    width: 90%;
+  }
+
+  .img-post{
+    width: 660px;
+    
+  
+  }
+  .line{
+    width: 100%;
+    height: 1px;
+    background-color: #e5e6ea;
+    margin-left: 20px;
+  }
+  .write-comment{
+    display: flex;
+    flex-direction: row;
+  
+    width: 90%;
+    height: 41.39px;
+    left: 0px;
+    top: 310.44px;
+    margin-top: 10px;
+    margin-left: 30px;
+    
+  }
+  .avatar-write-comment{
+    width: 39.96px;
+    height: 37.94px;
+  }
+  .input-write-comment{
+   
+    width: 80%;
+    height: 30px;
+    
+    border:#F1F2F5 ;
+    margin-top: 5px;
+    margin-left: 5px;
+    
+    box-sizing: border-box;
+    background: #F1F2F5;
+    border-radius: 133.444px;
+    outline: none;
+    padding: 1px 5px 1px 10px;
+  }
+  .input-write-comment:focus {
+    border: 1px solid #555;
+  }
+  .input-write-comment:hover{
+    background-color:#e9e9e9 ;
+  }
+  .button-create-comment{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: #FFFFFF;
+    margin-top: 5px;
+  }
+  .button-create-comment:hover {
+    background-color: #cccdd0;
+    border: 1px solid #555;
+  }
+  .icon-create-comment{
+    width: 20px;
+    height: 20px;
+  }
+  .right-comment{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 10px;
+  
+    width: 90%;
+    
+     margin-left: 30px;
+     margin-top: 10px;
+    /* FACEBOOK INPUT GREY */
+    
+    background: #F1F2F5;
+    border-radius: 10px;
+  }
+  .right-comment:hover{
+    background-color:#e9e9e9 ;
+  }
+  .profile-comment{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+  
+    width: 588px;
+    height: 39px;
+  }
+  .avatar-comment{
+    width: 39.96px;
+    height: 37.94px;
+    border-radius: 50%;
+  }
+  .infor-comment{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+  
+    width: 509.26px;
+    height: 39px;
+  }
+  .name-infor-commet{
+    width: 401px;
+    height: 20px;
+  
+    font-family: 'SVN-Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+    margin: 0px;
+  
+    color: #3F4650;
+  }
+  .time-infor-commet{
+    width: 66px;
+    height: 15px;
+  
+    font-family: 'SVN-Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    /* identical to box height */
+  
+    letter-spacing: 0.025em;
+  
+    color: #727C8A;
+    margin: 0px;
+  
+  }
+  .content-right-commet{
+    width: 528px;
+    
+  
+    font-family: 'SVN-Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    margin: 0px 0px 0px 10px;
+  
+    color: #3F4650;
+  }
+  
+  
